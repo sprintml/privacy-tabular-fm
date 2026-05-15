@@ -1,3 +1,3 @@
-# Privacy Attacks on TFMs
+# TASK 1: Attribute Inference
 
-This is the main repository for the competiton on "Privacy Attacks on Tabular Foundation Models (TFMs)".
+Attribute inference aims to recover a sensitive attribute of a known target record from access to a trained model. The track targets a TFM conditioned on a private in-context training set. For each of [N] target records, the participants receive the values of all non-sensitive features and query the target model to predict the value of a held-out sensitive attribute (for example, marital status, income bracket, or diagnostic category). Submissions consist of predicted probabilities over the categorical sensitive attribute for each target record. Real-world analog: given query access to a deployed clinical model and a patient's non-sensitive features, an attacker recovers a sensitive attribute about that patient.

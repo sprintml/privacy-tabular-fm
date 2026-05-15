@@ -1,3 +1,7 @@
 # Privacy Attacks on TFMs
 
 This is the main repository for the competiton on "Privacy Attacks on Tabular Foundation Models (TFMs)".
+
+TL;DR: We introduce a four-track competition on privacy attacks against tabular foundation models, covering attribute inference, membership inference, dataset inference, and property/distribution inference.
+
+ABSTRACT: Tabular foundation models (TFMs) have moved rapidly from research artifacts into deployed models in healthcare, finance, and administration, where the underlying training records are typically sensitive. Despite this trajectory, the privacy properties of these models remain almost entirely unstudied at scale. No prior NeurIPS competition has examined privacy in the tabular modality, and the 2025 competition cohort included no privacy or inference attack tracks at all. We propose a four-track competition that closes this gap. The tracks are focused on attribute, membership, dataset, and property (distribution) inference that investigate the privacy granularity from very fine-grained unit (attribute) to a single data point, followed by the dataset level, and finally operate on the general training data properties, respectively. We train TFMs on realistic medical, financial, and demographic data. The competition produces a public benchmark of attacks that we will release alongside a post-competition analysis paper. We provide strong baselines, and the evaluation infrastructure that has been operated at production scale.

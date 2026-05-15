@@ -1,3 +1,3 @@
-# Privacy Attacks on TFMs
+# TASK 4: Property Inference
 
-This is the main repository for the competiton on "Privacy Attacks on Tabular Foundation Models (TFMs)".
+Property inference aims to recover a global property of the training data distribution from black-box access to a trained model. The track targets [N] TFMs, each conditioned on a private in-context training set drawn from one of two distributions: World A, in which a chosen population property holds for 70% of records, and World B, in which the property holds for 50% of records. The world from which a given target model's in-context set was drawn is hidden from the participants. For each target model, the participants submit a score indicating the likelihood of training under World A. Real-world analog: an organization deploys a TFM with its customer base as the in-context training set. An adversary infers demographic or geographic concentration in the customer base from the model's outputs, leaking aggregate properties of the organization's data even when individual records remain protected.

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Privacy Attacks on Tabular Foundation Models — NeurIPS 2026 Competition"
+message: "If you use this code or the benchmark, please cite the post-competition analysis paper."
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Aditya
+    affiliation: CISPA Helmholtz Center for Information Security
+  - family-names: Wahdany
+    given-names: Dariush
+    affiliation: CISPA Helmholtz Center for Information Security
+  - family-names: Räisä
+    given-names: Ossi
+    affiliation: CISPA Helmholtz Center for Information Security
+  - family-names: Hoese
+    given-names: Ivo
+    affiliation: CISPA Helmholtz Center for Information Security
+  - family-names: Filienko
+    given-names: Daniil
+    affiliation: University of Washington Tacoma
+  - family-names: Böhler
+    given-names: Jonas
+    affiliation: SAP SE
+  - family-names: Cresswell
+    given-names: Jesse C.
+    affiliation: Layer 6 AI
+  - family-names: Boenisch
+    given-names: Franziska
+    affiliation: CISPA Helmholtz Center for Information Security
+  - family-names: Dziedzic
+    given-names: Adam
+    affiliation: CISPA Helmholtz Center for Information Security
+license: Apache-2.0
+repository-code: "https://github.com/sprintml/privacy-tabular-fm"
+keywords:
+  - privacy
+  - tabular foundation models
+  - inference attacks
+  - benchmarks
+  - NeurIPS 2026
